@@ -40,4 +40,6 @@ def play(board)
   until position_taken?(board, index) == true
     turn(board)
   end
+  move(board, index)
+  display_board(board)
 end
